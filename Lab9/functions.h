@@ -1,19 +1,18 @@
-#include <stdio.h>
-#include <stdbool.h>
+#include <iostream>
 
 struct Point{
-	int x;
-	int y;
+    int x;
+    int y;
 };
 
 struct CheckRes{
-	bool inside;
-	unsigned stepNum;
-	struct Point vals[50];
+    bool inside;
+    unsigned step;
+    struct Point mas[50];
 };
 
 int func(int, int, int);
 
-int m(int, int, bool);
+int maximum(int, int);
 
 int sign(int);
