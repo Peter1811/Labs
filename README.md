@@ -1,1 +1,1 @@
-# Labs1
+Lab works by the first course.
